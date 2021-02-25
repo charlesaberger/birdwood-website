@@ -1,0 +1,18 @@
+.main {
+	background-color: white;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	font-family: "Verdana", sans-serif;
+	/*text-align: center;*/
+	
+	width: 50%;
+	margin: auto;
+}
+
+@media (max-width: 450px) {
+	.main {
+		width: 75%;
+	}
+}
