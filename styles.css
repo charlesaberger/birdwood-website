@@ -5,10 +5,49 @@
 	justify-content: center;
 	align-items: center;
 	font-family: "Verdana", sans-serif;
-	/*text-align: center;*/
 	
 	width: 50%;
 	margin: auto;
+}
+
+blockquote {
+  width:75%;
+  margin:20px auto;
+  font-style:italic;
+  color: #555555;
+  padding:1.2em 30px 1.2em 30px;
+  border-left:8px solid #000080 ;
+  line-height:1.6;
+  position: relative;
+  background:#EDEDED;
+}
+
+blockquote::before{
+  color:#78C0A8;
+  font-size:4em;
+  position: absolute;
+  left: 10px;
+  top:-10px;
+}
+
+blockquote::after{
+  content: '';
+}
+
+blockquote span{
+  display:block;
+  color:#333333;
+  font-style: normal;
+  font-weight: bold;
+  margin-top:1em;
+}
+.ofsted {
+	margin-left:  auto;
+}
+.ofsted-logo {
+	float: right;
+	height: 100px;
+	width: 100px;
 }
 
 @media (max-width: 450px) {
