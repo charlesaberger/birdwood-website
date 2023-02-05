@@ -5,21 +5,17 @@
 	justify-content: center;
 	align-items: center;
 	font-family: "Verdana", sans-serif;
-	/*text-align: center;*/
 	
 	width: 50%;
 	margin: auto;
 }
 
 blockquote {
-  /*font-size: 1.4em;*/
   width:75%;
   margin:20px auto;
-  /*font-family:Open Sans;*/
   font-style:italic;
   color: #555555;
   padding:1.2em 30px 1.2em 30px;
-  /*border-left:8px solid #78C0A8 ;*/
   border-left:8px solid #000080 ;
   line-height:1.6;
   position: relative;
@@ -27,8 +23,6 @@ blockquote {
 }
 
 blockquote::before{
-  /*font-family:Arial;*/
-  /*content: "\201C";*/
   color:#78C0A8;
   font-size:4em;
   position: absolute;
@@ -51,8 +45,6 @@ blockquote span{
 	margin-left:  auto;
 }
 .ofsted-logo {
-	/*position:  absolute;
-	right: 0px;*/
 	float: right;
 	height: 100px;
 	width: 100px;
